@@ -36,7 +36,7 @@ setInterval(function(){
     testCreature.Draw(camera);
     testCreature2.Draw(camera);
     camera.Update();
-}, 1000);
+}, 16);
 
 // let mapGen:NoiseMapGenerator = new NoiseMapGenerator();
 //mapGen.setNoiseSeed("hej");
