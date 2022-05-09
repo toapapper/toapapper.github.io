@@ -11,7 +11,7 @@
             background-color:cadetblue;
             display: flex;
 			justify-content: center;
-			overflow: hidden;
+			overflow: scroll;
 			height: 100vh;
         }
         h1{
@@ -31,6 +31,11 @@
             font-size:16px;
             font-family:'Courier New', Courier, monospace;
             background-color: rgb(192, 232, 219);
+            width:700px;
+            height:auto;
+        }
+        #height_filler{
+            height:100px;
         }
 
     </style>
@@ -48,8 +53,8 @@
         </div>
         
         <h2>Description:</h2>
-        <div id="description">This is an unfinished chess game written in javascript </div>
         <div id="description">
+            This is an unfinished chess game written in javascript 
             The idea was to make a 4 player chess that could be played locally
             as I could not find any such games available online.
             However it turns out that figuring out wether or not a piece is 
@@ -60,6 +65,8 @@
             The pieces have their move-sets and can be taken etc.. no win screen though.
             It's kind of like playing chess away from the keyboard.
         </div>
+
+        <div id="height_filler"></div>
     </div>
     
     <script src = "src/Game.js" type = "module"></script>
