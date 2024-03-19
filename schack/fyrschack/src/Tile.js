@@ -62,9 +62,6 @@ export default class Tile{
         ctx.fillStyle = drawColor;
         //ctx.fillRect(this.posX - (this.size/2), this.posY - (this.size/2), this.posX + (this.size/2), this.posY + (this.size/2));
         ctx.fillRect(this.posX - (this.size/2), this.posY - (this.size/2), this.size, this.size);
-        
-        
-        console.log((this.posX - (this.size/2)) + " " + (this.posY - (this.size/2)) + " " + (this.posX + (this.size/2)) + " " + (this.posY + (this.size/2)));
 
         if(this.piece != undefined)
             this.piece.Draw(ctx);
