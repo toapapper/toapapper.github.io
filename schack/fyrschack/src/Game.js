@@ -76,6 +76,8 @@ canvas.addEventListener('click', function(event){
         Move(tile);
     }
     
+    navigator.vibrate(1000);
+
     Draw(ctx);
 }, false);
 
