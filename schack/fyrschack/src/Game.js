@@ -77,6 +77,7 @@ canvas.addEventListener('click', function(event){
     }
     
     navigator.vibrate(1000);
+    console.log("VIBRATE");
 
     Draw(ctx);
 }, false);
